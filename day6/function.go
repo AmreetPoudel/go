@@ -1,4 +1,4 @@
-package main
+package function1
 
 func main() {
 	//1.Write a function calc that takes two integers and returns their sum, difference, product, and quotient.
