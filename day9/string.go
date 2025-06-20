@@ -44,3 +44,6 @@ func age(num int) error {
 	return nil
 
 }
+
+// here i am not printing anything rather i am making string or errors dynamically like for return or saving it to variable
+//that error thing i love i can return that error and print the custom error in case of error
