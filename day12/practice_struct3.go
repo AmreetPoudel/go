@@ -1,4 +1,4 @@
-package main
+package struc3
 
 import "fmt"
 
