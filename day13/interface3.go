@@ -1,6 +1,6 @@
 // implement interface here
 
-package main
+package interface3
 
 import (
 	"fmt"
