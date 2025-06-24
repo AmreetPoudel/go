@@ -1,4 +1,4 @@
-package main
+package interface4
 
 import (
 	"fmt"
