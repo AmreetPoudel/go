@@ -7,7 +7,7 @@
 // Save(data string)
 // Load(key string) string
 
-package main
+package interface_example3
 
 import (
 	"fmt"
