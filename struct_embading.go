@@ -27,7 +27,7 @@ func main() {
 			name: "amrit poudel",
 			age:  27,
 		},
-		eid:    "Neosys2Network#1",
+		eid:    "AM123POU#1",
 		salary: 10000000,
 	}
 
