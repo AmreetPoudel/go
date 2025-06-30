@@ -1,4 +1,4 @@
-package main
+package regular expression
 
 import (
 	"fmt"
