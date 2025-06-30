@@ -1,4 +1,4 @@
-package main
+package error1
 
 import (
 	"errors"
@@ -8,7 +8,7 @@ import (
 
 func SquareRoot(number float64) (float64, error) {
 	if number < 0 {
-		return 0, errors.New("math: cannot compute squareroot of negative number")
+		return 0, errors.New("math error: cannot compute squareroot of negative number")
 	} else {
 		return math.Sqrt(number), nil
 	}
@@ -16,8 +16,9 @@ func SquareRoot(number float64) (float64, error) {
 }
 
 func main() {
-	number := -11
+	number := 11.11
 	n, e := SquareRoot(float64(number))
+
 	if e != nil {
 		fmt.Println(e)
 	} else {
